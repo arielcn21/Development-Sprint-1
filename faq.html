@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>Alpha Code MP3</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="HTML,CSS,XML, charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale=1.0, minimum scale=1.0, user-scaleable=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<meta name="author" content="S316974">
+<!--style for accordion -->
+<style>
+	.accordion {
+	  background-color: rgb(255, 123, 0);
+	  color: rgb(255, 255, 255);
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	  transition: 0.4s;
+	}
+
+	.active, .accordion:hover {
+	  background-color: rgb(228, 195, 152);
+	}
+
+	.accordion:after {
+	  content: '\002B';
+	  color: #777;
+	  font-weight: bold;
+	  float: right;
+	  margin-left: 5px;
+	}
+
+	.active:after {
+	  content: "\2212";
+	}
+
+	.panel {
+	  padding: 0 18px;
+	  background-color: white;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	}
+	</style>
+
+<!--Footer Style-->
+<style>
+	.hbar
+	#fsettl:hover{text-decoration:underline}
+	.hbar a:hover{text-decoration:underline}
+	.fbar p,.fbar a,#fsettl,#fsett a{color:#d2d2d2}
+	.fbar a:hover,#fsett a:hover{color:#f5efe1}
+	.fbar{font-size:small}</style>
+
+</head>
+
+<body>
+
+<!--Top banner-->
+<header>
+	<div class="topnav">
+	  <a href="index.html"><Img src="img/alpha code logo.JPG" alt="Alpha coder" style="width:80px"></a>
+	<!--  <div class="topnav-right">
+	    <div id="mysidenav" class="sidenav">
+	      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+	      <ul class="mainmenu">
+	           <li><a href="Index.html">Home</a></li>
+						 <li><a href="#">Search</a></li>
+	           <li><a href="#">Account</a></li>
+	           <li><a href="#">FAQ</a></li>
+	           <li><a href="#">Contac US</a></li>
+	        </ul>
+	      </div>
+	      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	  </div> -->
+	</div>
+</header>
+
+<!--Search bar-->
+<div class="containers">
+  <div class="card">
+  <h4>Search your Favourite Music, Using AlphaCode Search Bar.</h4>
+    <span><form class="searchbar" action="musiclist.html" style="margin:auto;max-width:300px"></form></span>
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+
+<!--About Us-->
+    <div class="container">
+		<h1 class="text-capitalize">FAQ <strong class="banner-title "></strong></h1>
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-5">
+
+
+
+		  <button class="accordion">How to Download the file in MP3?</button>
+		  <div class="panel">
+			<p>For every song title, you can find download option. To save right clicking>save as>choose a path that you wish to save the file</p>
+		  </div>
+
+		  <button class="accordion">Shall I use this song in youtube video?</button>
+		  <div class="panel">
+			<p>Since most of the songs are under copyright, you cannt use those song in youtube. However we have seprate non-copyright songs in non-copyright section.You can use those songs in your youtube.</p>
+		  </div>
+
+		  <button class="accordion">Is it possible to download song of a singer in Zip file?</button>
+		  <div class="panel">
+			<p>Yes,you can download the full song of a singer by browsing by singler name.Each playlist wil contain all songs of the singer and which is organized by year it relesed.</p>
+		  </div>
+
+
+		</div>
+
+		<div class="col-10 mx-auto col-md-6 my-5">
+
+
+
+			<button class="accordion">How can I search for songs?</button>
+			<div class="panel">
+			  <p>We optimised our search engine in Album,Genres,Artists,New relese, Trending songs,Trending Albums,Lyrics,Old Songs, New Songs and Videos.</p>
+			</div>
+
+			<button class="accordion">Can I edit songs in this website?</button>
+			<div class="panel">
+			  <p>No, you can'nt edit audio or songe in our website.</p>
+			</div>
+
+			<button class="accordion">Am I need to purchase any plan to download Audio and Video Songs? </button>
+			<div class="panel">
+			  <p>There is no subcribtion. We are providing all audio and video for free of cost.</p>
+			</div>
+
+
+		  </div>
+
+      </div>
+    </div>
+
+
+		<footer>
+
+
+					<div class="hbar" id="fbar"><div class="fbar">
+						<p> Follow AlphaCoder MP'3 on</p>
+
+			  <div class="footer-social-icons">
+			    <ul>
+			      <li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			      <li><a><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			      <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			      <li><a><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			      </ul>
+			    </div>
+
+					<p><a href="#">Privacy and Policy</a>  | <u>Copyright © 2020</u> by AlphaCoder MP3's | All Right Reserved.</p>
+					<h5>CDU, Darwin, NT, Australia &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; HIT 226 Mobile Web Structure</h5>
+					</div></div>
+				</footer>
+
+
+	</body>
+
+<script src="home.js"></script>
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight) {
+		  panel.style.maxHeight = null;
+		} else {
+		  panel.style.maxHeight = panel.scrollHeight + "px";
+		}
+	  });
+	}
+	</script>
+
+
+</html>
